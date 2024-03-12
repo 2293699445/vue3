@@ -1,0 +1,16 @@
+{
+  "name": "TScode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "compile": "tsc"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.202",
+    "lodash": "^4.17.21"
+  }
+}

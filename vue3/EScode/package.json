@@ -1,0 +1,23 @@
+{
+  "name": "es_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01ES6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow",
+    "build": "babel src -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "flow-bin": "^0.229.2"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-flow": "^7.24.0",
+    "typescript": "^5.3.3",
+    "yarn": "^1.22.21"
+  }
+}
